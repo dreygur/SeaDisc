@@ -6,7 +6,7 @@ var (
 	BaseUrl string = "wss://{network}stream.openseabeta.com/socket/websocket?token="
 )
 
-func GetNetwork(network string) string {
+func GetSocketUrl(network, token string) string {
 	var (
 		net string = ""
 		url string
@@ -17,5 +17,5 @@ func GetNetwork(network string) string {
 	}
 
 	url = strings.Replace(BaseUrl, "{network}", net, 1)
-	return url
+	return url + token
 }
