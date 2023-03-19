@@ -15,6 +15,6 @@ Quick look: [Overview](https://docs.opensea.io/reference/stream-api-overview) | 
 - Item received bid - bid received on an item in the OpenSea marketplace
 
 ## What events can I listen until now?
-To be honest, Nothing!!!
+Every single event! :fire:
 
 Let's have a try!
